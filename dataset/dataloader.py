@@ -7,4 +7,5 @@ class Dataset():
             ["Ju ", 25, "Member",],
             ["G u", 24, "Member",],
             [" Le e", 23, "Member",],
+            [" Hi", 234, "Dummy"]
         ]
