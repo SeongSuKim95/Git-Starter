@@ -1,11 +1,11 @@
-from router.home import set_home
+from router.router import set_dataset
 from utils.convert import convert
 from utils.func import preprocess
 
 from dataset.dataloader import Dataset
 
 if __name__ == "__main__":
-    set_home()
+    set_dataset()
 
     ds = Dataset()
     print(f"Before: {ds.df}")
